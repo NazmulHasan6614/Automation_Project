@@ -16,6 +16,7 @@ Ensure you have the following installed:
 - Maven
 - WebDriver compatible with  browser (Chrome, Firefox, etc.)
 <h2><strong>Setup</strong></h2>
+
 - Clone this repository to your local machine.
     - git clone https://github.com/NazmulHasan6614/Automation_Project.git
 - Navigate to the project directory.
