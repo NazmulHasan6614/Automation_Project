@@ -13,7 +13,17 @@ Ensure you have the following installed:
 
 - Java Development Kit (JDK)
 - Maven
-- WebDriver compatible with your preferred browser (Chrome, Firefox, etc.)
+- WebDriver compatible with  browser (Chrome, Firefox, etc.)
+<h2><strong>Setup</strong></h2>
+1.Clone this repository to your local machine.
+git clone https://github.com/NazmulHasan6614/Automation_Project.git
+2.Navigate to the project directory.
+cd Automation_Project
+3.Install dependencies.
+mvn clean install
+
+
+
 
 
 
