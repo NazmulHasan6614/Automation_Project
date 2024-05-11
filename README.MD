@@ -27,7 +27,12 @@ Ensure you have the following installed:
 
 - Configure your test environment in config.properties.
 - Run tests using Maven.
-mvn test
+    -mvn test
+<h2>Configuration</h2>
+
+-Browser choice: Specify the browser of your choice (e.g., chrome).
+
+
 
 
 
