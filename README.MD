@@ -25,8 +25,8 @@ Ensure you have the following installed:
   - mvn clean install
 <h2>Usage</h2>
 
--Configure your test environment in config.properties.
--Run tests using Maven.
+- Configure your test environment in config.properties.
+- Run tests using Maven.
 mvn test
 
 
