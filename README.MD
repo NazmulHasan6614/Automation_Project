@@ -12,6 +12,8 @@
 Ensure you have the following installed:
 
 - Java Development Kit (JDK)
+- Maven
+- WebDriver compatible with your preferred browser (Chrome, Firefox, etc.)
 
 
 
