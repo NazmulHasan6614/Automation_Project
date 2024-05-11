@@ -3,7 +3,6 @@
 
 <h2><strong>Overview</strong></h2>
 
-- **## Automated Testing:** Automate various user interactions and scenarios on the "automationpractice.pl" website.
-
+<h2><strong>Automated Testing:</strong></h2> Automate various user interactions and scenarios on the "automationpractice.pl" website.
 
 
