@@ -31,7 +31,9 @@ Ensure you have the following installed:
 <h2>Configuration</h2>
 
 - Browser choice:  chrome.
+</h2>Contributing</h2>
 
+Contributions are welcome! Please open an issue to discuss any changes you would like to make.
 
 
 
