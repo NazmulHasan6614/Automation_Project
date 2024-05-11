@@ -10,6 +10,11 @@
 - <h3>Reporting<strong>:</strong></h3>Generate detailed test reports for analysis and debugging.
 <h2><strong>Prerequisites</strong></h2>
 Ensure you have the following installed:
+- Java Development Kit (JDK)
+- Maven
+- WebDriver compatible with your preferred browser (Chrome, Firefox, etc.)
+
+
 
 
   
