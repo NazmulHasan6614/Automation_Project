@@ -1,5 +1,5 @@
 
- <h2>Java Selenium E-commerce Automation Project</h2>
+ <h1>Java Selenium E-commerce Automation Project</h1>
 
 <h2><strong>Overview</strong></h2>
 
@@ -8,6 +8,8 @@
 - <h3><strong>Modular Design:</strong></h3> Codebase is structured in a modular way for easy maintenance and scalability.
 - <h3><strong>Customizable Configurations:</strong></h3> Easily customizable configurations for browser choice, test data, etc.
 - <h3>Reporting<strong>:</strong></h3>Generate detailed test reports for analysis and debugging.
+<h2><strong>Prerequisites</strong></h2>
+Ensure you have the following installed:
 
 
   
