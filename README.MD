@@ -30,7 +30,7 @@ Ensure you have the following installed:
     -mvn test
 <h2>Configuration</h2>
 
--Browser choice: Specify the browser of your choice (e.g., chrome).
+- Browser choice:  chrome.
 
 
 
