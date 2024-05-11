@@ -23,6 +23,11 @@ Ensure you have the following installed:
   - cd Automation_Project
 - Install dependencies.
   - mvn clean install
+<h2>Usage</h2>
+
+-Configure your test environment in config.properties.
+-Run tests using Maven.
+mvn test
 
 
 
