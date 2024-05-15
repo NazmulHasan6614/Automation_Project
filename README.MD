@@ -22,7 +22,6 @@ The automation testing scope covers the following features:
 The automation testing strategy involves:
 - Designing and implementing automated test scripts using Selenium WebDriver and Java.
 - Organizing test cases into test suites for efficient execution.
-- Integrating tests with continuous integration (CI) pipelines for automated execution on code changes.
 - Reporting test results and tracking issues using tools like TestNG or JUnit and Jenkins.
 
 ## Test Environment
