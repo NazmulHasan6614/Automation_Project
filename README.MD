@@ -11,7 +11,7 @@ The primary objectives of the automation testing effort include:
 
 ## Scope
 The automation testing scope covers the following features:
-- User authentication (sign in, login, password reset)
+- User authentication (sign-in, login, password reset, add and remove from cart, filtering,checkout,logout)
 - Account creation
 - Product search, filtering, and sorting
 - Cart operations (add, remove, update quantity)
@@ -43,9 +43,8 @@ The automation testing schedule is as follows:
 |----------------------------|-------------|-------------|
 | Test Script Development    | May 3, 2024 | May 10, 2024|
 | Test Suite Creation        | May 11, 2024| May 14, 2024|
-| CI Pipeline Integration    | May 15, 2024| May 17, 2024|
-| Test Execution             | May 18, 2024| May 25, 2024|
-| Report Generation          | May 26, 2024| May 27, 2024|
+| Test Execution             | May 15, 2024| May 22, 2024|
+| Report Generation          | May 27, 2024| May 28, 2024|
 
 ## Test Cases
 The automated test cases will cover scenarios similar to manual testing, implemented using Selenium WebDriver and Java.
@@ -57,13 +56,13 @@ Bugs identified during automation testing will be reported and tracked using the
 The resources required for automation testing include:
 - Automated test engineers proficient in Selenium WebDriver and Java
 - Test automation frameworks: TestNG or JUnit
-- CI/CD tools: Jenkins, Travis CI
+
 
 ## Entry and Exit Criteria
 **Entry Criteria:**
 - Test environment is set up with necessary dependencies.
 - Automated test scripts are developed and reviewed.
-- CI pipeline is configured for automated test execution.
+
 
 **Exit Criteria:**
 - All automated test scripts are executed successfully.
