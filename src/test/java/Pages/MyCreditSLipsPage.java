@@ -4,7 +4,7 @@ import Library.CommonMethod;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import static ObjectRepository.MyCreditSLipsPageObject.*;
+import static ObjectRepository.OrderHistoryAndCreditSlipPageObject.*;
 
 public class MyCreditSLipsPage {
 

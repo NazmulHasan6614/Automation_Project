@@ -1,10 +1,9 @@
 package Pages;
 
 import Library.CommonMethod;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import static ObjectRepository.OrderHistoryPageObject.*;
+import static ObjectRepository.OrderHistoryAndCreditSlipPageObject.*;
 import static org.testng.Assert.assertTrue;
 
 public class OrderHistoryPage {
