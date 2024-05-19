@@ -16,7 +16,7 @@ public class ForGottenPasswordPage {
         assertTrue(CommonMethod.ButtonEnableOrNot(retrievePassword, driver));
         CommonMethod.click(retrievePassword, driver);
         CommonMethod.waitForElementVisibility(confirmationMessage, driver);
-        assertTrue(CommonMethod.messageDisply(confirmationMessage, driver), "Password is reset not possible");
+        assertTrue(CommonMethod.messageDisply(confirmationMessage, driver), "Password  reset is not possible");
 
 
     }

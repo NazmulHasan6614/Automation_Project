@@ -32,6 +32,4 @@ public class ProductPageObject {
     public static By cartEmptyMessage=By.xpath("//p[.='Your shopping cart is empty.']");
 
 
-
-
 }

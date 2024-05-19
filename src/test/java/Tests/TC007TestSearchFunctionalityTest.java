@@ -3,7 +3,10 @@ package Tests;
 import Pages.AutomationPracticeSearchField;
 import org.testng.annotations.Test;
 
+
 public class TC007TestSearchFunctionalityTest extends Base{
+
+
     AutomationPracticeSearchField
     searchObject=new AutomationPracticeSearchField();
     @Test
