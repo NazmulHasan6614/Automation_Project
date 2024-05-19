@@ -6,7 +6,7 @@ import Pages.LogInWithValidCredentials;
 import Pages.LogInWithValidEmailAndInvalidPass;
 import org.testng.annotations.Test;
 
-public class LoginPageTesting extends Base {
+public class TC001LoginPageTest extends Base {
     LogInWithInvalidEmailAndPass
             invalidObject=new LogInWithInvalidEmailAndPass();
     LogInWithValidEmailAndInvalidPass
@@ -15,7 +15,15 @@ public class LoginPageTesting extends Base {
     validObject=new LogInWithValidCredentials();
     CreateAccountAndLogInPageElementVerify
             elementObject=new CreateAccountAndLogInPageElementVerify();
+
     @Test(priority = 1)
+    public void verifyElementFirstPage()
+    {
+        elementObject.verifyElements(driver);
+
+
+    }
+    @Test(priority = 2)
     public void invalidLogin()
     {
 
@@ -23,12 +31,12 @@ public class LoginPageTesting extends Base {
 
     }
 
-    @Test(priority = 2)
+    @Test(priority = 3)
     public void validAndIvalidInput()
     {
         validAndInvalidObject.testValidUsernameInvalidPassword(driver);
     }
-    @Test(priority = 3)
+    @Test(priority = 4)
     public void validInput()
     {
 

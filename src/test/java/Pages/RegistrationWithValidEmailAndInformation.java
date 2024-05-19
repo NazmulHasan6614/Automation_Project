@@ -13,7 +13,9 @@ import static org.testng.Assert.assertTrue;
 public class RegistrationWithValidEmailAndInformation {
 
     public void inputValidEmailAndPersonalInformation(WebDriver driver) {
-        CommonMethod.sendData(Email_Field, driver, mail);
+        CommonMethod.scrollIntoElement(emailField,driver);
+        CommonMethod.waitForElementVisibility(emailField,driver);
+        CommonMethod.sendData(emailField, driver, mail);
         CommonMethod.click(Create_Account_Button,driver);
 
         if (!CommonMethod.verifyElementIsSelected(radioButton1,driver)&&(!CommonMethod.verifyElementIsSelected(radioButton2,driver)))

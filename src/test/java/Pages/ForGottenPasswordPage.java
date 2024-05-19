@@ -3,6 +3,7 @@ package Pages;
 import Library.CommonMethod;
 import org.openqa.selenium.WebDriver;
 
+import static ObjectRepository.AutomationPracticeRegistrationPageObject.SignIn;
 import static ObjectRepository.LogInPageObject.*;
 import static ObjectRepository.LogInPageObject.confirmationMessage;
 import static org.testng.Assert.assertTrue;

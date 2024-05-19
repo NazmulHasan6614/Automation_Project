@@ -2,13 +2,13 @@ package Tests;
 
 import Pages.CreateAccountAndLogInPageElementVerify;
 import Pages.ForGottenPasswordPage;
-import Pages.RegistrationWithValidEmailAndInformation;
 import org.testng.annotations.Test;
 
-public class LogInPageElementVerifyTest extends Base {
+public class TC002ForgottenPasswordTest extends Base{
+    ForGottenPasswordPage
+    forgottenPassObject=new ForGottenPasswordPage();
     CreateAccountAndLogInPageElementVerify
-    elementObject=new CreateAccountAndLogInPageElementVerify();
-
+            elementObject=new CreateAccountAndLogInPageElementVerify();
 
     @Test(priority = 1)
     public void verifyElementFirstPage()
@@ -17,10 +17,9 @@ public class LogInPageElementVerifyTest extends Base {
 
 
     }
-    @Test(priority = 2)
-    public void tearTest()
+    @Test
+    public void ForGottenPasswordTestCase()
     {
-        driver.quit();
+        forgottenPassObject.testForgottenPassField(driver);
     }
-
 }

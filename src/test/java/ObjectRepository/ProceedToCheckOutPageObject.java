@@ -3,6 +3,7 @@ package ObjectRepository;
 import org.openqa.selenium.By;
 
 public class ProceedToCheckOutPageObject {
+  public static By women = By.xpath("//a[.='Women']");
   public static   By checkOut=By.xpath("//span[contains(.,'Proceed to checkout')]");
     public static   By cartSmmary=By.id("cart_title");
     public static    By proceedToSignIn=By.xpath("//span[text()='Proceed to checkout']");
@@ -24,4 +25,5 @@ public class ProceedToCheckOutPageObject {
     public static  By name=By.cssSelector("a[title='View my customer account'] span");
     public static  By myaddress=By.xpath("//span[.='My addresses']");
     public static  By deleteButton=By.xpath("//span[.='Delete']");
+    public static By addToCartButton = By.xpath("//span[.='Add to cart']");
 }

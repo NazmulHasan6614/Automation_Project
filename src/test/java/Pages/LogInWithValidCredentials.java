@@ -17,7 +17,12 @@ public class LogInWithValidCredentials {
 
 
     public void loginWithValidInput(WebDriver driver) {
-       // CommonMethod.click(backToLogin, driver);
+
+      //CommonMethod.click(SignIn,driver);
+        /*The commonmethod.click(SignIn,driver) this function has to be remained disable only for TC001 test ,for the  rest  of the test where
+         loginWithValidInput method has been used
+          it has to be active.
+         */
         CommonMethod.sendData(EmailAddress, driver, validMail);
         CommonMethod.sendData(Paass_Field, driver, validPassword);
         CommonMethod.waitForElementVisibility(signIN, driver);

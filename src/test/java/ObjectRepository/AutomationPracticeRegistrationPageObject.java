@@ -6,7 +6,8 @@ import org.openqa.selenium.By;
 public class AutomationPracticeRegistrationPageObject {
 
     public static By SignIn = By.xpath("//a[contains(.,'Sign in')]");
-    public static By Email_Field = By.xpath("//input[@id='email_create']");
+    public static By Email_Field = By.id("email_create");
+    public static By emailField=By.xpath("(//input[@id='email_create'])[1]");
     public static By EmailAddress = By.id("email");
     public static By Paass_Field = By.id("passwd");
     public static By Create_Account_Button = By.xpath("//span[contains(.,'Create an account')]");

@@ -4,7 +4,7 @@ import Library.CommonMethod;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import static ObjectRepository.MouseHoverOverObject.women;
+import static ObjectRepository.ProductPageObject.women;
 
 public class MouseHoverOver {
 

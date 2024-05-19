@@ -3,6 +3,7 @@ package ObjectRepository;
 import org.openqa.selenium.By;
 
 public class LogInPageObject {
+    public static By SignIn = By.xpath("//a[contains(.,'Sign in')]");
     public static By EmailAddress = By.id("email");
     public static By Paass_Field = By.id("passwd");
     public static By submitLogin = By.cssSelector("button[id='SubmitLogin'] span");

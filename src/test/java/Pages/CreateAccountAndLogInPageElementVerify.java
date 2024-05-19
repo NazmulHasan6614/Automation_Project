@@ -4,7 +4,7 @@ import Library.CommonMethod;
 import org.openqa.selenium.WebDriver;
 
 import static ObjectRepository.AutomationPracticeRegistrationPageObject.*;
-import static ObjectRepository.AutomationPracticeRegistrationPageObject.SignIn_Button;
+//import static ObjectRepository.AutomationPracticeRegistrationPageObject.SignIn_Button;
 import static org.testng.Assert.assertTrue;
 
 public class CreateAccountAndLogInPageElementVerify {
